@@ -1,48 +1,38 @@
-**Seva Connect: Bridging the Gap for Social Impact **
 
-What is Seva Connect?
 
-Seva Connect is a platform that empowers social impact projects and connects them with potential investors in an efficient and impactful way.
+<h1>Seva Connect</h1>
 
-Why Seva Connect?
+<h2>Project Overview</h2>
+<p>Seva Connect is a comprehensive tool developed during the Smart India Hackathon (SIH) 2023. It is designed to track and analyze Environmental, Social, and Governance (ESG) metrics within and outside organizations, providing sector-specific rankings and AI-driven recommendations to improve these rankings. The system also includes a real-time chat feature, a sustainability chatbot, and a dedicated section for investors.</p>
 
-Funding Made Easier: Seva Connect streamlines finding the funding social impact projects need to make a difference. ➡️
-Matching Values: Innovative algorithms connect projects with investors who share their values. ✨
-Developing World Focus: Seva Connect has a strong focus on supporting projects in developing regions.
-Collaboration & Networking: Seva Connect fosters collaboration and networking among social impact stakeholders.
-Getting Started
+<h2>Live Link</h2>
+<p>Check out the live version of Seva Connect <a href="https://seva-connect-3-0.vercel.app/landing" target="_blank">here</a>.</p>
 
-Clone the Repository:
+<h2>Features</h2>
+<ul>
+    <li><strong>Real-time ESG Metrics Tracking:</strong> Monitor ESG metrics in real-time and analyze trends over time.</li>
+    <li><strong>Sector-Specific Rankings:</strong> Get rankings for different sectors based on their ESG performance.</li>
+    <li><strong>AI Recommendations:</strong> Receive suggestions on how to improve ESG rankings using AI techniques.</li>
+    <li><strong>Interactive Chat Feature:</strong> Engage with real-time chat to get instant support and information.</li>
+    <li><strong>Sustainability Chatbot:</strong> Ask the chatbot questions about sustainability and receive informed responses.</li>
+    <li><strong>Investor Section:</strong> Explore ongoing projects, find investment opportunities, and get recommendations based on interests.</li>
+</ul>
 
-Bash
-git clone https://github.com/<your-username>/seva-connect.git
-Use code with caution.
-content_copy
-Installation:
+<h2>Technologies Used</h2>
+<ul>
+    <li><strong>Frontend:</strong> React.js, CSS, HTML</li>
+    <li><strong>Backend:</strong> Node.js, Express.js</li>
+    <li><strong>Database:</strong> MongoDB, MySQL</li>
+    <li><strong>AI Models:</strong> TensorFlow, Keras, scikit-learn</li>
+    <li><strong>Others:</strong> Pandas</li>
+</ul>
 
-Bash
-cd seva-connect
-npm install  # or yarn install
-Use code with caution.
-content_copy
-Set Up Environment Variables:
+<h2>My Details</h2>
+<h3>Abhijeet Kumar</h3>
+<p><strong>Email:</strong> abhku21aiml@cmrit.ac.in</p>
 
-Create a .env file in the project root directory.
-Add necessary environment variables (e.g., database connection details, API keys) following your project's specific requirements.
-Run the Application:
+<h2>Contributing</h2>
+<p>We welcome contributions to improve Seva Connect. Please fork the repository and submit a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.</p>
 
-Bash
-npm start  # or yarn start
-Use code with caution.
-content_copy
-Features
-
-Project Profiles: Create compelling profiles highlighting your social impact project's goals, impact potential, and funding needs.
-Investor Matching: Leverage AI-powered matching to connect with investors who align with your mission.
-Impact Reporting: Track and showcase the positive social and environmental change your project achieves.
-Community Building (Optional): Network with other social impact organizations and individuals through Seva Connect's community features. (Consider adding this if applicable)
-Security: Seva Connect prioritizes data security to ensure the privacy of users and project information.
-
-Support
-
-For any questions or support, feel free to reach out to the Seva Connect team using the issue tracker or through our community channels or @anuragsw17@gmail.com
+</body>
+</html>

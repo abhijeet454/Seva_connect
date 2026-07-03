@@ -17,15 +17,15 @@ export const tokens = (mode) => ({
           900: "#141414",
         },
         primary: {
-          100: "#d0d1d5",
-          200: "#a1a4ab",
-          300: "#727681",
-          400: "#1F2A40",
-          500: "#141b2d",
-          600: "#101624",
-          700: "#0c101b",
-          800: "#080b12",
-          900: "#040509",
+          100: "#d0dfd5",
+          200: "#a1bfaa",
+          300: "#729f7f",
+          400: "#1A2B20",
+          500: "#0F1A13",
+          600: "#0B130E",
+          700: "#080E0A",
+          800: "#050906",
+          900: "#020403",
         },
         greenAccent: {
           100: "#dbf5ee",
@@ -74,15 +74,15 @@ export const tokens = (mode) => ({
           900: "#e0e0e0",
         },
         primary: {
-          100: "#040509",
-          200: "#080b12",
-          300: "#0c101b",
-          400: "#f2f0f0", // manually changed
-          500: "#141b2d",
-          600: "#1F2A40",
-          700: "#727681",
-          800: "#a1a4ab",
-          900: "#d0d1d5",
+          100: "#020403",
+          200: "#050906",
+          300: "#080E0A",
+          400: "#f4f9f5",
+          500: "#0F1A13",
+          600: "#1A2B20",
+          700: "#729f7f",
+          800: "#a1bfaa",
+          900: "#d0dfd5",
         },
         greenAccent: {
           100: "#0f2922",
@@ -130,10 +130,10 @@ export const themeSettings = (mode) => {
         ? {
             // palette values for dark mode
             primary: {
-              main: colors.primary[500],
+              main: colors.greenAccent[500],
             },
             secondary: {
-              main: colors.greenAccent[500],
+              main: colors.blueAccent[500],
             },
             neutral: {
               dark: colors.grey[700],
@@ -147,10 +147,10 @@ export const themeSettings = (mode) => {
         : {
             // palette values for light mode
             primary: {
-              main: colors.primary[100],
+              main: colors.greenAccent[600],
             },
             secondary: {
-              main: colors.greenAccent[500],
+              main: colors.blueAccent[600],
             },
             neutral: {
               dark: colors.grey[700],
@@ -158,35 +158,39 @@ export const themeSettings = (mode) => {
               light: colors.grey[100],
             },
             background: {
-              default: "#fcfcfc",
+              default: "#f4f9f5",
             },
           }),
     },
     typography: {
-      fontFamily: ["Source Sans Pro", "sans-serif"].join(","),
+      fontFamily: ["'Inter'", "'Outfit'", "sans-serif"].join(","),
       fontSize: 12,
       h1: {
-        fontFamily: ["Source Sans Pro", "sans-serif"].join(","),
+        fontFamily: ["'Outfit'", "sans-serif"].join(","),
         fontSize: 40,
+        fontWeight: 700,
       },
       h2: {
-        fontFamily: ["Source Sans Pro", "sans-serif"].join(","),
+        fontFamily: ["'Outfit'", "sans-serif"].join(","),
         fontSize: 32,
+        fontWeight: 600,
       },
       h3: {
-        fontFamily: ["Source Sans Pro", "sans-serif"].join(","),
+        fontFamily: ["'Outfit'", "sans-serif"].join(","),
         fontSize: 24,
+        fontWeight: 600,
       },
       h4: {
-        fontFamily: ["Source Sans Pro", "sans-serif"].join(","),
+        fontFamily: ["'Outfit'", "sans-serif"].join(","),
         fontSize: 20,
+        fontWeight: 500,
       },
       h5: {
-        fontFamily: ["Source Sans Pro", "sans-serif"].join(","),
+        fontFamily: ["'Inter'", "sans-serif"].join(","),
         fontSize: 16,
       },
       h6: {
-        fontFamily: ["Source Sans Pro", "sans-serif"].join(","),
+        fontFamily: ["'Inter'", "sans-serif"].join(","),
         fontSize: 14,
       },
     },

@@ -67,6 +67,8 @@ const Dashboard = () => {
         <Box
           gridColumn="span 3"
           backgroundColor={colors.primary[400]}
+          borderRadius="8px"
+          boxShadow="0px 4px 10px rgba(0,0,0,0.05)"
           display="flex"
           alignItems="center"
           justifyContent="space-evenly"
@@ -88,6 +90,8 @@ const Dashboard = () => {
         <Box
           gridColumn="span 3"
           backgroundColor={colors.primary[400]}
+          borderRadius="8px"
+          boxShadow="0px 4px 10px rgba(0,0,0,0.05)"
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -109,6 +113,8 @@ const Dashboard = () => {
         <Box
           gridColumn="span 3"
           backgroundColor={colors.primary[400]}
+          borderRadius="8px"
+          boxShadow="0px 4px 10px rgba(0,0,0,0.05)"
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -130,6 +136,8 @@ const Dashboard = () => {
         <Box
           gridColumn="span 3"
           backgroundColor={colors.primary[400]}
+          borderRadius="8px"
+          boxShadow="0px 4px 10px rgba(0,0,0,0.05)"
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -154,6 +162,8 @@ const Dashboard = () => {
           gridColumn="span 8"
           gridRow="span 2"
           backgroundColor={colors.primary[400]}
+          borderRadius="8px"
+          boxShadow="0px 4px 10px rgba(0,0,0,0.05)"
         >
           <Box
             mt="25px"
@@ -168,14 +178,14 @@ const Dashboard = () => {
                 fontWeight="600"
                 color={colors.grey[100]}
               >
-               Electrcity Consumptions(in kWh)
+               Electricity Consumptions (in kWh)
               </Typography>
               <Typography
                 variant="h3"
                 fontWeight="bold"
                 color={colors.greenAccent[500]}
               >
-                Units Saved|-100kWh
+                Units Saved | -100 kWh
               </Typography>
             </Box>
             <Box>
@@ -195,6 +205,8 @@ const Dashboard = () => {
           gridColumn="span 4"
           gridRow="span 2"
           backgroundColor={colors.primary[400]}
+          borderRadius="8px"
+          boxShadow="0px 4px 10px rgba(0,0,0,0.05)"
           p="30px"
         >
           <Typography variant="h5" fontWeight="600">
@@ -237,6 +249,8 @@ const Dashboard = () => {
           gridColumn="span 6"
           gridRow="span 2"
           backgroundColor={colors.primary[400]}
+          borderRadius="8px"
+          boxShadow="0px 4px 10px rgba(0,0,0,0.05)"
           padding="30px"
         >
           <Typography
